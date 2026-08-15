@@ -9,7 +9,7 @@ aws_c_common:
 c_compiler:
 - clang
 c_compiler_version:
-- '19'
+- '21'
 c_stdlib:
 - macosx_deployment_target
 c_stdlib_version:
@@ -21,6 +21,6 @@ channel_targets:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 s2n:
-- 1.7.6
+- 1.7.7
 target_platform:
 - osx-64

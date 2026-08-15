@@ -5,7 +5,7 @@ aws_c_common:
 c_compiler:
 - gcc
 c_compiler_version:
-- '14'
+- '15'
 c_stdlib:
 - sysroot
 c_stdlib_version:
@@ -17,6 +17,6 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma10
 s2n:
-- 1.7.6
+- 1.7.7
 target_platform:
 - linux-ppc64le
